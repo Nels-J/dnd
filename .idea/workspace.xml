@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="715cc822-a340-453c-992f-7483ed02f770" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/CPersonage.java" afterDir="false" />
+    <list default="true" id="715cc822-a340-453c-992f-7483ed02f770" name="Changes" comment="feat: new Cpersonage class added">
+      <change afterPath="$PROJECT_DIR$/src/CMagician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CWarrior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CPersonage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CPersonage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +44,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="dnd" type="Application" factoryName="Application">
@@ -60,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653587105036</updated>
-      <workItem from="1653587107150" duration="6082000" />
+      <workItem from="1653587107150" duration="11174000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1653587155545</created>
@@ -69,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653587155545</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: new Cpersonage class added">
+      <created>1653594771664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653594771664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="feat: new Cpersonage class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: new Cpersonage class added" />
   </component>
 </project>

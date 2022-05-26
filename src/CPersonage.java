@@ -1,28 +1,28 @@
 
 public class CPersonage {
-    public enum PersonageType {
-        WARRIOR,
+    static public enum PersonageType {
         MAGICIAN,
-
-        UNDEFINED
+        WARRIOR,
     }
 
     // -------------------- ATTRIBUTE(s)
-    private String m_name;
-    private PersonageType m_type;
-    private int m_forceAttack;
-    private int m_life;
-    private int m_eqAtt;
-    private int m_eqDef;
+    protected String m_name;
+    protected PersonageType m_type;
+    protected int m_forceAttack;
+    protected int m_life;
+    protected int m_eqAtt;
+    protected String m_eqName;
+    protected int m_eqDef;
 
 
     // ----------------- CONSTRUCTOR(s)
-    public CPersonage(String name, PersonageType type, int attack, int life, int eqAtt, int eqDef) {
+    public CPersonage(String name, PersonageType type, int attack, int life, int eqAtt,String eqName, int eqDef) {
         this.m_name = name;
         this.m_type = type;
         this.m_forceAttack = attack;
         this.m_life = life;
         this.m_eqAtt = eqAtt;
+        this.m_eqName = eqName;
         this.m_eqDef = eqDef;
     }
 
@@ -67,6 +67,7 @@ public class CPersonage {
 
 
     // METHOD(s)
+
     @Override
     public String toString() {
         return "CPersonage{" +
@@ -75,6 +76,7 @@ public class CPersonage {
                 ", m_forceAttack=" + m_forceAttack +
                 ", m_life=" + m_life +
                 ", m_eqAtt=" + m_eqAtt +
+                ", m_eqName='" + m_eqName + '\'' +
                 ", m_eqDef=" + m_eqDef +
                 '}';
     }
